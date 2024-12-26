@@ -1,0 +1,20 @@
+nums = (1,2,3,5,4,7,21243,55,43,4,567,2,234,4,6,7,34,5,4,2)
+print(nums)
+print(type(nums))
+
+listNums = list(nums)
+print(type(listNums),listNums)
+listNums.append(100)
+listNums.insert(6,200)
+print(listNums)
+listNums.remove(21243)
+print(listNums)
+
+nums = tuple(listNums)
+print(nums)
+print(type(nums))
+
+print(len(nums))
+print(nums.index(55))
+print(nums.count(4))
+print(nums.index(4, 6, len(nums)))
