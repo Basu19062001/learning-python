@@ -15,3 +15,4 @@ print(type(empty))
 
 empty = set() # this is a empty set
 print(type(empty))
+print(dir(empty))
