@@ -18,7 +18,7 @@ class MySisters(MyMom, MyDad):
 class MyNieceAndNephew(MySisters):
   pass
 
-#    Grand           MomGrand
+  #   Grand           MomGrand
   #     │                 │
   #  MyDad             MyMom
   #     │                 │
