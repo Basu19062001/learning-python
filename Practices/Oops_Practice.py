@@ -216,3 +216,21 @@
 
 
 # Practice
+
+class Engine:
+  def engine_type(self):
+    print("This is petrol engine.")
+    
+    
+class Vehicle(Engine):
+  def vehicle_type(self):
+    print("This four wheeler vehicle.")
+    
+class Car(Vehicle, Engine):
+  def car_type(self):
+    print("This is Honda Civic")
+    
+car = Car()
+car.car_type()
+car.vehicle_type()
+car.engine_type()
